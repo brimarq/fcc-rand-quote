@@ -1,0 +1,38 @@
+body {
+  background-color: #303030;
+}
+
+#spinner {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fa-spin {
+  color: #fff;
+  font-size: 48px;
+}
+
+.card {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 427px;
+}
+
+.card-header {
+  height: 240px;
+  padding: 0;
+}
+
+.card-footer {
+  border-top-color: #fff;
+}
+
+.newQ {
+  float: right;
+}
